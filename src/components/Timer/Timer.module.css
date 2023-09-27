@@ -1,0 +1,279 @@
+.Card {
+  box-sizing: border-box;
+  background-color: #1e2343;
+  width: 800px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.button {
+  border: none;
+}
+
+.trianglebuttonstriangle {
+  border-style: solid;
+  /* Size */
+  height: 0px;
+  width: 0px;
+  border-color: transparent transparent #949494;
+  border-width: 0 0.5rem 0.5rem;
+  background-color: #1e2343;
+}
+
+.timer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.timertop {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.hourcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hourcard p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #949494;
+  margin-bottom: 10px;
+}
+.hourcard input {
+  width: 87px;
+  height: 50px;
+  background-color: #1e2343;
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 10px 40px;
+  border: none;
+}
+.mincard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mincard p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #949494;
+  margin-bottom: 10px;
+}
+.mincard input {
+  width: 87px;
+  height: 50px;
+  background-color: #1e2343;
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 10px 40px;
+  border: none;
+}
+.seccard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccard p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #949494;
+}
+.seccard input {
+  width: 87px;
+  height: 50px;
+  background-color: #1e2343;
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 10px 40px;
+  border: none;
+}
+
+.timerbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.start {
+  width: 345px;
+  height: 35px;
+  background-color: #ff6a6a;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+.start:hover {
+  cursor: pointer;
+}
+
+.Cardimg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* background-image: url(/src/assets/Ellipse\ 3.png); */
+}
+.Cardimg img {
+  width: 200px;
+}
+.Cardimg span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.dots {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: white;
+  margin-top: 35px;
+}
+
+/* progress bar */
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  background-color: #181d37;
+  border-radius: 50%;
+  z-index: 1;
+  margin: 10px 0px 0px 10px;
+}
+
+.ring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 180px;
+  height: 180px;
+}
+.ring img {
+  width: 150px;
+  height: 150px;
+}
+
+.ring h1 {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .Card {
+    height: 145px;
+    justify-content: space-evenly;
+  }
+  .timertop {
+    margin-top: 0px;
+  }
+  .hourcard p {
+    margin-bottom: 0px;
+  }
+  .mincard p {
+    margin-bottom: 0px;
+  }
+  .seccard p {
+    margin-bottom: 0px;
+  }
+  .maincontainer {
+    height: 140px;
+    width: 140px;
+    margin: 0px 0px 0px 0px;
+  }
+  .ring {
+    width: 130px;
+    height: 130px;
+  }
+  .ring img {
+    width: 110px;
+    height: 110px;
+  }
+  .hourcard input {
+    height: 40px;
+    margin: 0px 30px;
+    font-size: 36px;
+  }
+  .mincard input {
+    height: 40px;
+    margin: 0px 30px;
+    font-size: 36px;
+  }
+  .seccard input {
+    height: 40px;
+    margin: 0px 30px;
+    font-size: 36px;
+  }
+  .timerbot {
+    margin-top: 10px;
+  }
+  .start {
+    height: 25px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+}

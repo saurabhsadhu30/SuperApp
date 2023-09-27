@@ -1,0 +1,147 @@
+.wcontainer {
+  box-sizing: border-box;
+  width: 440px;
+  min-height: 30vh;
+  margin: 0px;
+}
+.topcon {
+  background-color: #ff4ade;
+  box-sizing: border-box;
+  width: 440px;
+  height: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 24px;
+}
+.topcon p {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: white;
+  display: inline;
+  margin: 0px 30px;
+}
+.botcon {
+  background-color: #101744;
+  display: flex;
+  color: white;
+  height: 120px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.botcon > div {
+  flex: 1;
+  padding: 13px;
+}
+hr {
+  height: 50px;
+  width: 2px;
+  margin-top: 36px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box1 p {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.box2 {
+  text-align: center;
+}
+.box2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 p {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.pressure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.pressure p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.box3 div {
+  display: flex;
+  align-items: center;
+}
+.wind {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.humnity {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.wind p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.humnity p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .topcon {
+    margin-top: 8px;
+    height: 32px;
+    min-height: 32px;
+  }
+
+  .topcon p {
+    font-size: 21px;
+  }
+  .botcon {
+    height: 110px;
+  }
+  .box1 p {
+    text-align: center;
+  }
+  .wcontainer {
+    height: 145px;
+    min-height: 145px;
+  }
+}

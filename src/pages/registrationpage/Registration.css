@@ -1,0 +1,26 @@
+main {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.leftsection {
+  display: flex;
+  align-items: end;
+  height: 100vh;
+  width: 50vw;
+  background: url(/src//assets/image\ 13.png);
+  background-size: cover;
+}
+
+.h2 {
+  margin-left: 50px;
+  margin-bottom: 75px;
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}

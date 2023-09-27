@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Inter&family=Roboto&family=Single+Day&family=Space+Mono&display=swap");
+
+/* .browser {
+  display: flex;
+  flex-direction: column;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin-top: 10px;
+  padding: 0px 30px;
+}
+.header p {
+  font-family: Single Day;
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #72db73;
+}
+
+.headerright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  width: 81px;
+  height: 81px;
+  border-radius: 40px;
+  border: 1.41px solid #fffcfc;
+}
+.header button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #148a08;
+  color: white;
+  font-size: 21px;
+  margin-right: 20px;
+}
+.header button:hover {
+  cursor: pointer;
+}
+
+.container {
+  box-sizing: border-box;
+  /* width: 90vw;
+  min-width: 90vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardcontainer {
+  box-sizing: border-box;
+  width: 85vw;
+}
+
+.p {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+  margin-left: 100px;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .header img {
+    width: 65px;
+    height: 65px;
+  }
+  .header button {
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,79 @@
+.dashboard {
+  display: flex;
+  flex: 1;
+}
+
+.leftsection {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px 0px 80px;
+}
+.leftsection_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  height: 482px;
+}
+.topleft {
+  display: flex;
+  flex-direction: column;
+}
+.topright {
+  display: flex;
+  height: 440px;
+}
+.leftsection_bot {
+  display: flex;
+}
+.rightsection {
+  height: 90vh;
+}
+.nextbtn {
+}
+
+.browbtn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 70px;
+  padding: 0px 70px;
+}
+.browbtn button {
+  width: 150px;
+  height: 45px;
+  border-radius: 38px;
+  border: none;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  background-color: #148a08;
+}
+
+.browbtn button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .leftsection {
+    margin: 25px 20px 0px 45px;
+  }
+  .topright {
+    height: 370px;
+  }
+  .leftsection_top {
+    height: 382px;
+  }
+  .browbtn button {
+    width: 132px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .topleft {
+    height: 372px;
+  }
+}

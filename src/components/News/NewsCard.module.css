@@ -1,0 +1,90 @@
+.card {
+  box-sizing: border-box;
+  width: 380px;
+  min-height: 695px;
+  border-radius: 10px;
+  margin: 40px;
+}
+.image {
+  position: relative;
+  width: 380px;
+  height: 440px;
+}
+.image img {
+  vertical-align: middle;
+  width: 380px;
+  height: 440px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.title {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding-left: 20px;
+}
+.title p {
+  color: white;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+.date {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+.date p {
+  display: inline;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+.description {
+  height: 240px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+}
+.description p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #272727;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .image {
+    height: 310px;
+  }
+  .image img {
+    height: 310px;
+  }
+  .description {
+    height: 200px;
+  }
+  .title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .date p {
+    font-size: 16px;
+  }
+}
